@@ -1,10 +1,13 @@
 import React from 'react';
 import logo from './assets/images/logo.svg';
- import Home from './components/Home'
+import Home from './components/Home'
 
 import News from './components/News'
 import Home2 from "./components/Home2";
- import News2 from "./components/News2";
+import News2 from "./components/News2";
+import Home3 from "./components/Home3";
+import EventObject from "./components/EventObject";
+
 function App() {
     return (
         <div className="App">
@@ -23,10 +26,12 @@ function App() {
         </a>
       </header>*/}
             你好 React
-            <Home></Home>
+            {/*<Home></Home>
             <News></News>
             <Home2></Home2>
             <News2></News2>
+            <Home3></Home3>*/}
+            <EventObject></EventObject>
         </div>
     );
 }
