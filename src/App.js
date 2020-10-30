@@ -7,6 +7,11 @@ import Home2 from "./components/Home2";
 import News2 from "./components/News2";
 import Home3 from "./components/Home3";
 import EventObject from "./components/EventObject";
+import List from "./components/List";
+import Todolist from "./components/Todolist";
+import Form from "./components/Form";
+import ReactForm from "./components/ReactForm";
+import TodoListDemo from "./components/TodoListDemo";
 
 function App() {
     return (
@@ -25,13 +30,17 @@ function App() {
           Learn React
         </a>
       </header>*/}
-            你好 React
             {/*<Home></Home>
             <News></News>
             <Home2></Home2>
             <News2></News2>
-            <Home3></Home3>*/}
+            <Home3></Home3>
             <EventObject></EventObject>
+            <List></List>
+            <Todolist></Todolist>
+            <Form></Form>
+            <ReactForm></ReactForm>*/}
+            <TodoListDemo></TodoListDemo>
         </div>
     );
 }
