@@ -12,6 +12,8 @@ import Todolist from "./components/Todolist";
 import Form from "./components/Form";
 import ReactForm from "./components/ReactForm";
 import TodoListDemo from "./components/TodoListDemo";
+import HomePage from "./components/HomePage";
+import HomeNews from "./components/HomeNews";
 
 function App() {
     return (
@@ -39,8 +41,10 @@ function App() {
             <List></List>
             <Todolist></Todolist>
             <Form></Form>
-            <ReactForm></ReactForm>*/}
+            <ReactForm></ReactForm>
             <TodoListDemo></TodoListDemo>
+            <HomePage></HomePage>*/}
+            <HomeNews></HomeNews>
         </div>
     );
 }
